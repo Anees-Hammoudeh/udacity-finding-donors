@@ -5,7 +5,7 @@ Project from the **Udacity Intro to Machine Learning Nanodegree**. Uses supervis
 ## Approach
 1. **Explore and preprocess:** log-transformed skewed features (`capital-gain`, `capital-loss`), scaled numeric features with MinMaxScaler, and one-hot encoded categorical features.
 2. **Benchmark:** a naive predictor that always predicts ">50K" scores accuracy 0.2478 and F-score 0.2917.
-3. **Compare models:** trained and evaluated three supervised models (including Random Forest and Logistic Regression) on 1%, 10% and 100% of the training data, using accuracy, F-score (β = 0.5) and training time.
+3. **Compare models:** trained and evaluated three supervised models (Random Forest, Logistic Regression and SVM) on 1%, 10% and 100% of the training data, using accuracy, F-score (β = 0.5) and training time.
 4. **Tune:** optimized Logistic Regression with GridSearchCV over the regularization parameter.
 5. **Feature importance:** found the most predictive features and retrained on only the top five.
 
